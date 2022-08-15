@@ -1,21 +1,25 @@
 # The-Goon
 
-### Library to create self driving robot that collects temperature and humidity data, then posts to twitter
+Library to create self driving robot. Robot will be able to collect data from a temperature sensor and upload it to twitter.
 
-## Step 1
+## Materials
 
-## Step 2
+## Instructions
 
-## Step 3
+### Step 1
 
-## Step 4
+### Step 2
 
-## Step 5
+### Step 3
 
-## Step 6
+### Step 4
 
-## Step 7
+### Step 5
 
-## Step 8
+### Step 6
 
-## Step 9
+### Step 7
+
+### Step 8
+
+### Step 9
