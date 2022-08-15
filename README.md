@@ -1,4 +1,5 @@
-# The-Goon
+# The-Goon aka. Temperature Housing Environment  -  Gwen's Office Output Navigator
+
 
 Process to create a self driving robot. Robot will be able to collect data from a temperature sensor using Arduino Mega 2650 and upload it to twitter using Raspberry Pi 4.
 
