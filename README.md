@@ -22,21 +22,21 @@ Library to create self driving robot. Robot will be able to collect data from a 
 
 ## Wiring
 
-### Arduino Pinout
+### Arduino Pins
 
 | Pin | Location |
 | --- | -------- |
 | Gnd | - channel on breadboard |
 | 5V | + channel on breadboard |
 | Digital pin 4 | Signal pin on DHT11 |
-| Digital pin 5 | R_PWM pin on right motor driver |
-| Digital pin 6 | L_PWM pin on right motor driver |
-| Digital pin 7 | L_EN pin on right motor driver |
-| Digital pin 8 | R_EN pin on right motor driver |
-| Digital pin 9 | R_PWM pin on left motor driver |
-| Digital pin 10 | L_PWM pin on left motor driver |
-| Digital pin 11 | L_EN pin on left motor driver |
-| Digital pin 12 | R_EN pin on left motor driver |
+| Digital pin 5 | R_PWM pin on right BTS7960 |
+| Digital pin 6 | L_PWM pin on right BTS7960 |
+| Digital pin 7 | L_EN pin on right BTS7960 |
+| Digital pin 8 | R_EN pin on right BTS7960 |
+| Digital pin 9 | R_PWM pin on left BTS7960 |
+| Digital pin 10 | L_PWM pin on left BTS7960 |
+| Digital pin 11 | L_EN pin on left BTS7960 |
+| Digital pin 12 | R_EN pin on left BTS7960 |
 | Digital pin 44 | Input and output pin for front SR04 sensor |
 | Digital pin 45 | Input and output pin for right SR04 sensor |
 | Digital pin 46 | Input and output pin for left SR04 sensor |
