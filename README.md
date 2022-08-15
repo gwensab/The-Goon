@@ -89,7 +89,7 @@ I found the instructions at [create.arduino.cc](https://create.arduino.cc/projec
 
 * To install SQLite3, type 'sudo apt install sqlite3' into the terminal
 * Type 'sqlite3 test.db' into the terminal to either create or open a database named "test" 
-* Once in this database, create a table using the following code, 'CREATE TABLE weather(*figure out what I did for table*);'
+* Once in this database, create a table using the following code, 'CREATE TABLE weather(row_num INTEGER PRIMARY KEY, temperature TEXT, humidity TEXT, time TEXT);'
 
 I found the instructions at [pimylifeup.com](https://pimylifeup.com/raspberry-pi-sqlite/) to be helpful
 
@@ -102,4 +102,4 @@ I found the instructions at [pimylifeup.com](https://pimylifeup.com/raspberry-pi
 
 * Create a cronjob to run the python codes every x minutes
 * To create a crontab, type 'crontab -e' in the terminal to create and edit a file
-* At the bottom of the file that opens, type " */x * * * * weatherman.py & postConditions.py"
+* At the bottom of the file that opens, type " */x * * * * python3 ./weatherman.py && python3 postConditions.py"
