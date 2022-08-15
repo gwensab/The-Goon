@@ -12,6 +12,7 @@ This project follows the process of creating a self driving robot. The robot wil
 | BTS7960 Motor Driver  x2 | [amazon.com](https://www.amazon.com/BTS7960-Driver-Module-Arduino-Current/dp/B07TFB22H5/ref=pd_lpo_1?pd_rd_i=B07TFB22H5&psc=1) |
 | HC-SR04 Ultrasonic Sensor  x3 | [microcenter.com](https://www.microcenter.com/product/613881/inland-hr-sr04-blue-ultrasonic-module-3-pack) |
 | DHT11 Temperature & Humidity Sensor | [microcenter.com](https://www.microcenter.com/product/618777/inland-dht11-temperature-humidity-moisture-sensor-module)  |
+| Robot Base, Motors, Wheels | [servocity.com](https://www.servocity.com/junior-runt-rover/) |
 | Breadboard | [microcenter.com](https://www.microcenter.com/product/618901/inland-400-tie-point-breadboard)  |
 | Jumper Wires | [microcenter.com](https://www.microcenter.com/product/613879/inland-dupont-jumper-wire-20cm-3-pack) |
 | 9 Volt Batteries  x2 | [amazon.com](https://www.amazon.com/Amazon-Basics-Performance-All-Purpose-Batteries/dp/B00MH4QM1S/ref=sr_1_5?crid=6OSVURAHHUSK&keywords=9+volt+battery&qid=1660589045&sprefix=9+volt+battery%2Caps%2C107&sr=8-5) |
@@ -21,9 +22,7 @@ This project follows the process of creating a self driving robot. The robot wil
 | Micro SD Card | [amazon.com](https://www.amazon.com/Amazon-Basics-microSDXC-Memory-Adapter/dp/B08TJTB8XS/ref=sr_1_8?adgrpid=1331509145234001&hvadid=83219392605214&hvbmt=be&hvdev=c&hvlocphy=93060&hvnetw=o&hvqmt=e&hvtargid=kwd-83219667163019%3Aloc-190&hydadcr=24662_10681382&keywords=micro%2Bsd%2Bcard&qid=1660589670&sr=8-8&th=1)  |
 | USB Printer Cable | [amazon.com](https://www.amazon.com/Monoprice-1-5-Feet-24AWG-Plated-105436/dp/B009GUVZOK/ref=sr_1_7?crid=NKU8S9AJMVTF&keywords=usb+printer+cable+1+ft&qid=1660589733&sprefix=usb+printer+cable+1+ft%2Caps%2C114&sr=8-7) |
 
-## Wiring
-
-### Arduino Pins
+## Arduino Wiring
 
 | Pin | Location |
 | --- | -------- |
@@ -41,24 +40,41 @@ This project follows the process of creating a self driving robot. The robot wil
 | Digital pin 44 | Input and output pin for front SR04 sensor |
 | Digital pin 45 | Input and output pin for right SR04 sensor |
 | Digital pin 46 | Input and output pin for left SR04 sensor |
-
+| USB Port | Raspberry Pi USB Port via USB printer cable |
+| Power Jack | Arduino Battery Pack |
 
 ## Instructions
 
-### Step 1
+### Step 1 : Setting Up Raspberry Pi
 
-### Step 2
+* This will require the Raspberry Pi, Raspberry Pi battery pack,  micro SD card, mouse, keyboard, and monitor
+* Insert micro SD card into computer and install the [Raspberry Pi Imager](https://www.raspberrypi.com/software/) for your device
+* Insert micro SD card into Raspberry Pi
+* Connect keyboard, mouse, monitor, and power to Raspberry Pi
+* Follow prompts that appear on your monitor to finalize the set up of Raspberry Pi
 
-### Step 3
+I found the step by step instructions and images at [this link](https://projects.raspberrypi.org/en/projects/raspberry-pi-setting-up/0) to be helpful
 
-### Step 4
+### Step 2 : Connect All Components
 
-### Step 5
+insert image of wiring here
+* Connect Arduino Mega board to Raspberry Pi, breadboard, DHT11, BTS7960, and SR04 according to the wiring table and image above
+* Arrange components onto the base of the robot
 
-### Step 6
+### Step 3 : Program Arduino Using Raspberry Pi
 
-### Step 7
+*  Download Arduino IDE by opening [this link](https://www.arduino.cc/en/software/OldSoftwareReleases#previous) in the Raspberry Pi desktop
+*  I used the newest update "Arduino 1.8.18" then selected "Linux ARM 32" 
+*  Open a terminal and type ' tar -xvzf arduino-1.8.18-linuxarm.tar.xz ' to extract the file
+*  Then type ' cd arduino-1.8.18 ' to go to the directory
+*  In the directory. type ' ./arduino ' to run the Arduino IDE
 
-### Step 8
+I found the instructions at [this link](https://create.arduino.cc/projecthub/ruchir1674/how-to-interface-arduino-with-raspberrypi-504b06) to be helpful
 
-### Step 9
+### Step 4 : Download Arduino Libraries
+
+* In the Arduino window, select "Sketch" -> "Include" -> "Manage Libraries" then download
+* * DHT sensor library  by  Adafruit
+* * Adafruit Unified Sensor  by  Adafruit
+* * BTS7960  by  Luis Llamas
+* * NewPing  by  Tim Eckel
