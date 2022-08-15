@@ -78,3 +78,13 @@ I found the instructions at [this link](https://create.arduino.cc/projecthub/ruc
 * * Adafruit Unified Sensor  by  Adafruit
 * * BTS7960  by  Luis Llamas
 * * NewPing  by  Tim Eckel
+
+### Step 5 : Arduino Code
+
+* Input code from **temp_and_drive.ino** into Arduino IDE
+* In the "Tools" tab, check that "Board", "Processor", and "Port" all have the correct values
+* Verify and Upload code to the board
+
+### Step 6 : Install sqlite3
+
+*
