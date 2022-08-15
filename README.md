@@ -4,6 +4,15 @@ Library to create self driving robot. Robot will be able to collect data from a 
 
 ## Materials
 
+| Item | Link |
+| ---- | ---- |
+| Arduino Mega 2650 Board |  |
+| Raspberry Pi 4 |  |
+| BTS7960 Motor Driver  x2 |  |
+| HC-SR04 Ultrasonic Sensor  x3 |  |
+| DHT11 Temperature & Humidity Sensor |  |
+
+
 ## Instructions
 
 ### Step 1
