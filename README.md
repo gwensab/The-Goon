@@ -53,7 +53,7 @@ This project follows the process of creating a self driving robot. The robot wil
 * Connect keyboard, mouse, monitor, and power to Raspberry Pi
 * Follow prompts that appear on your monitor to finalize the set up of Raspberry Pi
 
-I found the step by step instructions and images at [this link](https://projects.raspberrypi.org/en/projects/raspberry-pi-setting-up/0) to be helpful
+I found the instructions at [projects.raspberrypi.org](https://projects.raspberrypi.org/en/projects/raspberry-pi-setting-up/0) to be helpful
 
 ### Step 2 : Connect All Components
 
@@ -63,13 +63,13 @@ insert image of wiring here
 
 ### Step 3 : Program Arduino Using Raspberry Pi
 
-*  Download Arduino IDE by opening [this link](https://www.arduino.cc/en/software/OldSoftwareReleases#previous) in the Raspberry Pi desktop
+*  Download Arduino IDE by opening [arduino.cc](https://www.arduino.cc/en/software/OldSoftwareReleases#previous) in the Raspberry Pi desktop
 *  I used the newest update "Arduino 1.8.18" then selected "Linux ARM 32" 
 *  Open a terminal and type ' tar -xvzf arduino-1.8.18-linuxarm.tar.xz ' to extract the file
 *  Then type ' cd arduino-1.8.18 ' to go to the directory
 *  In the directory. type ' ./arduino ' to run the Arduino IDE
 
-I found the instructions at [this link](https://create.arduino.cc/projecthub/ruchir1674/how-to-interface-arduino-with-raspberrypi-504b06) to be helpful
+I found the instructions at [create.arduino.cc](https://create.arduino.cc/projecthub/ruchir1674/how-to-interface-arduino-with-raspberrypi-504b06) to be helpful
 
 ### Step 4 : Download Arduino Libraries
 
@@ -85,6 +85,21 @@ I found the instructions at [this link](https://create.arduino.cc/projecthub/ruc
 * In the "Tools" tab, check that "Board", "Processor", and "Port" all have the correct values
 * Verify and Upload code to the board
 
-### Step 6 : Install sqlite3
+### Step 6 : Install SQLite3
 
-*
+* To install SQLite3, type 'sudo apt install sqlite3' into the terminal
+* Type 'sqlite3 test.db' into the terminal to either create or open a database named "test" 
+* Once in this database, create a table using the following code, 'CREATE TABLE weather(*figure out what I did for table*);'
+
+I found the instructions at [pimylifeup.com](https://pimylifeup.com/raspberry-pi-sqlite/) to be helpful
+
+### Step 7 : Python Files 
+
+* **weatherman.py**
+* **postConditions.py**
+
+### Step 8 : Cronjob
+
+* Create a cronjob to run the python codes every x minutes
+* To create a crontab, type 'crontab -e' in the terminal to create and edit a file
+* At the bottom of the file that opens, type " */x * * * * weatherman.py & postConditions.py"
