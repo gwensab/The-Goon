@@ -22,6 +22,26 @@ Library to create self driving robot. Robot will be able to collect data from a 
 
 ## Wiring
 
+### Arduino Pinout
+
+| Pin | Location |
+| --- | -------- |
+| Gnd | - channel on breadboard |
+| 5V | + channel on breadboard |
+| 4 | Signal pin on DHT11 |
+| 5 | R_PWM pin on right motor driver |
+| 6 | L_PWM pin on right motor driver |
+| 7 | L_EN pin on right motor driver |
+| 8 | R_EN pin on right motor driver |
+| 9 | R_PWM pin on left motor driver |
+| 10 | L_PWM pin on left motor driver |
+| 11 | L_EN pin on left motor driver |
+| 12 | R_EN pin on left motor driver |
+| 44 | Input and output pin for front SR04 sensor |
+| 45 | Input and output pin for right SR04 sensor |
+| 46 | Input and output pin for left SR04 sensor |
+
+
 ## Instructions
 
 ### Step 1
