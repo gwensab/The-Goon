@@ -1,6 +1,6 @@
 # The-Goon
 
-Library to create self driving robot. Robot will be able to collect data from a temperature sensor and upload it to twitter.
+Process to create a self driving robot. Robot will be able to collect data from a temperature sensor using Arduino Mega 2650 and upload it to twitter using Raspberry Pi 4.
 
 ## Materials
 
