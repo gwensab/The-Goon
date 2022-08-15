@@ -20,6 +20,7 @@ Library to create self driving robot. Robot will be able to collect data from a 
 | Micro SD Card | [amazon.com](https://www.amazon.com/Amazon-Basics-microSDXC-Memory-Adapter/dp/B08TJTB8XS/ref=sr_1_8?adgrpid=1331509145234001&hvadid=83219392605214&hvbmt=be&hvdev=c&hvlocphy=93060&hvnetw=o&hvqmt=e&hvtargid=kwd-83219667163019%3Aloc-190&hydadcr=24662_10681382&keywords=micro%2Bsd%2Bcard&qid=1660589670&sr=8-8&th=1)  |
 | USB Printer Cable | [amazon.com](https://www.amazon.com/Monoprice-1-5-Feet-24AWG-Plated-105436/dp/B009GUVZOK/ref=sr_1_7?crid=NKU8S9AJMVTF&keywords=usb+printer+cable+1+ft&qid=1660589733&sprefix=usb+printer+cable+1+ft%2Caps%2C114&sr=8-7) |
 
+## Wiring
 
 ## Instructions
 
