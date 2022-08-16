@@ -18,7 +18,7 @@ insert image of wiring here
 * Arrange components onto the base of the robot
 
 ### Step 3 : Program Arduino Using Raspberry Pi
-
+![Screenshot (1)](https://user-images.githubusercontent.com/109180573/184965887-3dc830c1-892e-4345-988f-685824c7168a.jpg)
 *  Download Arduino IDE by opening [arduino.cc](https://www.arduino.cc/en/software/OldSoftwareReleases#previous) in the Raspberry Pi desktop
 *  I used the newest update ``Arduino 1.8.18`` then selected ``Linux ARM 32`` 
 *  Open a terminal and type  ``tar -xvzf arduino-1.8.18-linuxarm.tar.xz`` to extract the file
