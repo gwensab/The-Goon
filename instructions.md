@@ -6,7 +6,7 @@
 
 
 ### Step 2 : Set Up Raspberry Pi
-
+![Screenshot (4)](https://user-images.githubusercontent.com/109180573/184979696-cb262807-324f-454b-9b4a-b53e0b7514be.png)
 * This will require the Raspberry Pi, Raspberry Pi battery pack,  micro SD card, mouse, keyboard, and monitor
 * Insert micro SD card into computer and install the [Raspberry Pi Imager](https://www.raspberrypi.com/software/) for your device
 * Insert micro SD card into Raspberry Pi
@@ -16,17 +16,17 @@
 I found the instructions at [projects.raspberrypi.org](https://projects.raspberrypi.org/en/projects/raspberry-pi-setting-up/0) to be helpful
 
 ### Step 3 : Program Arduino Using Raspberry Pi
-![Screenshot (1)](https://user-images.githubusercontent.com/109180573/184966235-4a23b9b9-42e2-42c9-b986-61d1d2e17b15.jpg)
+![Screenshot (1)](https://user-images.githubusercontent.com/109180573/184979464-e52a56d7-9ea6-48cd-a006-cb449a4bf9c2.jpg)
 *  Download Arduino IDE by opening [arduino.cc](https://www.arduino.cc/en/software/OldSoftwareReleases#previous) in the Raspberry Pi desktop
 *  I used the newest update ``Arduino 1.8.18`` then selected ``Linux ARM 32`` 
-*  In the File Manager, extract the file
-*  Then type ``cd arduino-1.8.18`` to go to the directory
-*  In the directory. type ``./arduino`` to run the Arduino IDE
+*  In the File Manager, extract the file by right clicking on it
+*  Then type ``cd arduino-1.8.18`` to open to the directory
+*  In the directory, type ``./arduino`` to run the Arduino IDE
 
 I found the instructions at [create.arduino.cc](https://create.arduino.cc/projecthub/ruchir1674/how-to-interface-arduino-with-raspberrypi-504b06) to be helpful
 
 ### Step 4 : Download Arduino Libraries
-![screenshot (3)](https://user-images.githubusercontent.com/109180573/184966595-af61b835-2be1-48a9-bad1-2e345e82806b.png)
+![Screenshot (3)](https://user-images.githubusercontent.com/109180573/184979313-c072559c-baa9-46f4-b07c-030f46a48fb8.png)
 * In the Arduino window, select ``Sketch`` -> ``Include`` -> ``Manage Libraries`` then download
 * * DHT sensor library  by  Adafruit
 * * Adafruit Unified Sensor  by  Adafruit
