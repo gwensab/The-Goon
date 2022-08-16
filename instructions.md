@@ -6,7 +6,7 @@
 
 
 ### Step 2 : Set Up Raspberry Pi
-![Screenshot (4)](https://user-images.githubusercontent.com/109180573/184979696-cb262807-324f-454b-9b4a-b53e0b7514be.png)
+![Screenshot (4)](https://user-images.githubusercontent.com/109180573/184982249-e00b766c-4fc0-4566-a87c-1a39a82448d7.png)
 * This will require the Raspberry Pi, Raspberry Pi battery pack,  micro SD card, mouse, keyboard, and monitor
 * Insert micro SD card into computer and install the [Raspberry Pi Imager](https://www.raspberrypi.com/software/) for your device
 * Insert micro SD card into Raspberry Pi
@@ -26,7 +26,7 @@ I found the instructions at [projects.raspberrypi.org](https://projects.raspberr
 I found the instructions at [create.arduino.cc](https://create.arduino.cc/projecthub/ruchir1674/how-to-interface-arduino-with-raspberrypi-504b06) to be helpful
 
 ### Step 4 : Download Arduino Libraries
-![Screenshot (3)](https://user-images.githubusercontent.com/109180573/184979313-c072559c-baa9-46f4-b07c-030f46a48fb8.png)
+![Screenshot (3)](https://user-images.githubusercontent.com/109180573/184982325-f3d4b353-7043-4f8a-9781-bb95bb17d683.png)
 * In the Arduino window, select ``Sketch`` -> ``Include`` -> ``Manage Libraries`` then download
 * * DHT sensor library  by  Adafruit
 * * Adafruit Unified Sensor  by  Adafruit
