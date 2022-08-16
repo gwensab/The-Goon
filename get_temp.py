@@ -1,3 +1,6 @@
+# @gwensab last edited 8/16/2022
+# The purpose of this code is to collect data from the temperature & humidity sensor through the Arduino board, then insert that data into a sqlite database table
+
 #!/usr/bin/env python3
 import sqlite3
 import serial
