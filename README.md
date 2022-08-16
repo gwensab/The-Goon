@@ -47,9 +47,9 @@ This project follows my process of creating a self driving robot. The robot is a
 | Power Jack | Arduino Battery Pack |
 
 ## Libraries Used
-| Arduino || Python |
-| ------- || ------ |
-| <BTS7960.h> || sqlite3 |
-| <NewPing.h> || serial |
-| <Adafruit_Sensor.h> || datetime |
-| <DHT.h> || tweepy |
+| Arduino | Python |
+| ------- | ------ |
+| <BTS7960.h> | sqlite3 |
+| <NewPing.h> | serial |
+| <Adafruit_Sensor.h> | datetime |
+| <DHT.h> | tweepy |
