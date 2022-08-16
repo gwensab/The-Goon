@@ -93,16 +93,21 @@ I found the instructions at [create.arduino.cc](https://create.arduino.cc/projec
 
 I found the instructions at [pimylifeup.com](https://pimylifeup.com/raspberry-pi-sqlite/) to be helpful
 
-### Step 7 : Python Files 
+### Step 7 : Twitter Developer Account & Tweepy
+
+* To create a twitter developer account
+
+### Step 8 : Python Files 
 
 * From Raspberry Pi desktop, open the ``Applications Menu`` -> ``Programming`` -> ``Thonny Python IDE``
-* Create a new python file and input the [weatherman](weatherman.py) code
-* Test that is works properly by running ``python3 ./weatherman.py`` in the terminal (this should add data to sqlite table which can be viewed [here](https://sqliteviewer.app/))
-* Repeat the above instructions with the [post conditions](postConditions.py) code
+* Create a new python file and input the [get_temp](get_temp.py) code
+* Test that this works properly by running ``python3 ./get_temp.py`` in the terminal (this should add data to sqlite table which can be viewed [here](https://sqliteviewer.app/))
+* Create another new python file and input the [post twitter](post_twitter.py) code
+* Test that this works properly by checking the twitter account you are using for new posts
 
-### Step 8 : Cronjob
+### Step 9 : Cronjob
 
 * Create a cronjob to run the python codes every x minutes
 * Type 'crontab -e' in the terminal to create and edit a file
-* At the bottom of the file that opens, type ``*/x * * * * python3 ./weatherman.py && python3 postConditions.py``
+* At the bottom of the file that opens, type ``*/x * * * * python3 ./.py && python3 postConditions.py``
 (where x is the minute interval you want to run the code at)
