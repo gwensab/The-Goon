@@ -3,6 +3,8 @@
 
 This project follows the process of creating a self driving robot. The robot will be able to collect data from a temperature sensor using Arduino Mega 2650 and upload it to twitter using Raspberry Pi 4.
 
+### Follow Step-By-Step Instructions [Here](instructions.md)
+
 ## Materials
 
 | Item | Link |
@@ -44,15 +46,9 @@ This project follows the process of creating a self driving robot. The robot wil
 | Power Jack | Arduino Battery Pack |
 
 ## Libraries Used
-### Arduino
-- <BTS7960.h>
-- <NewPing.h>
-- <Adafruit_Sensor.h>
-- <DHT.h>
-### Python
-- sqlite3
-- serial
-- time
-- datetime
-- tweepy
-
+| Arduino | Python |
+| ------- | ------ |
+| <BTS7960.h> | sqlite3 |
+| <NewPing.h> | serial |
+| <Adafruit_Sensor.h> | datetime |
+| <DHT.h> | tweepy |
