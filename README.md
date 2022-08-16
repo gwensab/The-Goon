@@ -95,8 +95,8 @@ I found the instructions at [pimylifeup.com](https://pimylifeup.com/raspberry-pi
 
 ### Step 7 : Python Files 
 
-* **weatherman.py**
-* **postConditions.py**
+* [weatherman](docs/weatherman.py)
+* [post conditions](docs/postConditions.py)
 
 ### Step 8 : Cronjob
 
