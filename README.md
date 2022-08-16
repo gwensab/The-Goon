@@ -100,7 +100,7 @@ I found the instructions at [pimylifeup.com](https://pimylifeup.com/raspberry-pi
 ### Step 8 : Python Files 
 
 * From Raspberry Pi desktop, open the ``Applications Menu`` -> ``Programming`` -> ``Thonny Python IDE``
-* Create a new python file and input the [get_temp](get_temp.py) code
+* Create a new python file and input the [get temp](get_temp.py) code
 * Test that this works properly by running ``python3 ./get_temp.py`` in the terminal (this should add data to sqlite table which can be viewed [here](https://sqliteviewer.app/))
 * Create another new python file and input the [post twitter](post_twitter.py) code
 * Test that this works properly by checking the twitter account you are using for new posts
