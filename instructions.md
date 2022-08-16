@@ -16,7 +16,7 @@
 I found the instructions at [projects.raspberrypi.org](https://projects.raspberrypi.org/en/projects/raspberry-pi-setting-up/0) to be helpful
 
 ### Step 3 : Program Arduino Using Raspberry Pi
-![Screenshot (1)](https://user-images.githubusercontent.com/109180573/184979464-e52a56d7-9ea6-48cd-a006-cb449a4bf9c2.jpg)
+![Sscreenshot (1)](https://user-images.githubusercontent.com/109180573/184982452-6683fa86-a8aa-4e98-9e69-f50120d01984.jpg)
 *  Download Arduino IDE by opening [arduino.cc](https://www.arduino.cc/en/software/OldSoftwareReleases#previous) in the Raspberry Pi desktop
 *  I used the newest update ``Arduino 1.8.18`` then selected ``Linux ARM 32`` 
 *  In the File Manager, extract the file by right clicking on it
