@@ -1,7 +1,11 @@
 # Step By Step Instructions
 
 
-### Step 1 : Setting Up Raspberry Pi
+### Step 1 : Assemble Components
+
+
+
+### Step 2 : Set Up Raspberry Pi
 
 * This will require the Raspberry Pi, Raspberry Pi battery pack,  micro SD card, mouse, keyboard, and monitor
 * Insert micro SD card into computer and install the [Raspberry Pi Imager](https://www.raspberrypi.com/software/) for your device
@@ -11,24 +15,18 @@
 
 I found the instructions at [projects.raspberrypi.org](https://projects.raspberrypi.org/en/projects/raspberry-pi-setting-up/0) to be helpful
 
-### Step 2 : Connect All Components
-
-insert image of wiring here
-* Connect Arduino Mega board to Raspberry Pi, breadboard, DHT11, BTS7960, and SR04 according to the wiring table and image above
-* Arrange components onto the base of the robot
-
 ### Step 3 : Program Arduino Using Raspberry Pi
 ![Screenshot (1)](https://user-images.githubusercontent.com/109180573/184966235-4a23b9b9-42e2-42c9-b986-61d1d2e17b15.jpg)
 *  Download Arduino IDE by opening [arduino.cc](https://www.arduino.cc/en/software/OldSoftwareReleases#previous) in the Raspberry Pi desktop
 *  I used the newest update ``Arduino 1.8.18`` then selected ``Linux ARM 32`` 
-*  Open a terminal and type  ``tar -xvzf arduino-1.8.18-linuxarm.tar.xz`` to extract the file
+*  In the File Manager, extract the file
 *  Then type ``cd arduino-1.8.18`` to go to the directory
 *  In the directory. type ``./arduino`` to run the Arduino IDE
 
 I found the instructions at [create.arduino.cc](https://create.arduino.cc/projecthub/ruchir1674/how-to-interface-arduino-with-raspberrypi-504b06) to be helpful
 
 ### Step 4 : Download Arduino Libraries
-
+![screenshot (3)](https://user-images.githubusercontent.com/109180573/184966595-af61b835-2be1-48a9-bad1-2e345e82806b.png)
 * In the Arduino window, select ``Sketch`` -> ``Include`` -> ``Manage Libraries`` then download
 * * DHT sensor library  by  Adafruit
 * * Adafruit Unified Sensor  by  Adafruit
