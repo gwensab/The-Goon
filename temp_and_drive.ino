@@ -1,8 +1,7 @@
 /*
-
+@gwensab last edited 8/16/2022
 This is the code for Arduino Mega 2560 board. Code includes interfacing with two motor drivers, one temperature sensor, and three distance sensors. 
 Code has the capacity to gather information from sensors and drive according to that information.
-
 */
 
 #include <BTS7960.h>   // motor driver
