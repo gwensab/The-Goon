@@ -102,4 +102,5 @@ I found the instructions at [pimylifeup.com](https://pimylifeup.com/raspberry-pi
 
 * Create a cronjob to run the python codes every x minutes
 * Type 'crontab -e' in the terminal to create and edit a file
-* At the bottom of the file that opens, type " */x * * * * python3 ./weatherman.py && python3 postConditions.py" (where x is the minute interval you want to run the code at)
+* At the bottom of the file that opens, type " */x * * * * python3 ./weatherman.py && python3 postConditions.py" 
+(where x is the minute interval you want to run the code at)
