@@ -65,15 +65,15 @@ insert image of wiring here
 
 *  Download Arduino IDE by opening [arduino.cc](https://www.arduino.cc/en/software/OldSoftwareReleases#previous) in the Raspberry Pi desktop
 *  I used the newest update ``Arduino 1.8.18`` then selected ``Linux ARM 32`` 
-*  Open a terminal and type ' tar -xvzf arduino-1.8.18-linuxarm.tar.xz ' to extract the file
-*  Then type ' cd arduino-1.8.18 ' to go to the directory
-*  In the directory. type ' ./arduino ' to run the Arduino IDE
+*  Open a terminal and type  ``tar -xvzf arduino-1.8.18-linuxarm.tar.xz`` to extract the file
+*  Then type ``cd arduino-1.8.18`` to go to the directory
+*  In the directory. type ``./arduino`` to run the Arduino IDE
 
 I found the instructions at [create.arduino.cc](https://create.arduino.cc/projecthub/ruchir1674/how-to-interface-arduino-with-raspberrypi-504b06) to be helpful
 
 ### Step 4 : Download Arduino Libraries
 
-* In the Arduino window, select "Sketch" -> "Include" -> "Manage Libraries" then download
+* In the Arduino window, select ``Sketch`` -> ``Include`` -> ``Manage Libraries`` then download
 * * DHT sensor library  by  Adafruit
 * * Adafruit Unified Sensor  by  Adafruit
 * * BTS7960  by  Luis Llamas
@@ -82,14 +82,14 @@ I found the instructions at [create.arduino.cc](https://create.arduino.cc/projec
 ### Step 5 : Arduino Code
 
 * Input code from **temp_and_drive.ino** into Arduino IDE
-* In the "Tools" tab, check that "Board", "Processor", and "Port" all have the correct values
+* In the ``Tools`` tab, check that ``Board``, ``Processor``, and ``Port`` all have the correct values
 * Verify and Upload code to the board
 
 ### Step 6 : Install SQLite3
 
-* To install SQLite3, type 'sudo apt install sqlite3' into the terminal
-* Type 'sqlite3 test.db' into the terminal to either create or open a database named "test" 
-* Once in this database, create a table using the following code, 'CREATE TABLE weather(row_num INTEGER PRIMARY KEY, temperature TEXT, humidity TEXT, time TEXT);'
+* To install SQLite3, type ``sudo apt install sqlite3`` into the terminal
+* Type ``sqlite3 test.db`` into the terminal to either create or open a database named ``test`` 
+* Once in this database, create a table using the following code, ``CREATE TABLE weather(row_num INTEGER PRIMARY KEY, temperature TEXT, humidity TEXT, time TEXT);``
 
 I found the instructions at [pimylifeup.com](https://pimylifeup.com/raspberry-pi-sqlite/) to be helpful
 
@@ -102,5 +102,5 @@ I found the instructions at [pimylifeup.com](https://pimylifeup.com/raspberry-pi
 
 * Create a cronjob to run the python codes every x minutes
 * Type 'crontab -e' in the terminal to create and edit a file
-* At the bottom of the file that opens, type " */x * * * * python3 ./weatherman.py && python3 postConditions.py" 
+* At the bottom of the file that opens, type ``*/x * * * * python3 ./weatherman.py && python3 postConditions.py``
 (where x is the minute interval you want to run the code at)
