@@ -1,9 +1,10 @@
 # THE-GOON
 *aka. Temperature Housing Environment - Gwen's Office Output Navigator*
 
-This project follows the process of creating a self driving robot. The robot will be able to collect data from a temperature sensor using Arduino Mega 2650 and upload it to twitter using Raspberry Pi 4.
-
 ### Follow Step-By-Step Instructions [Here](instructions.md)
+
+This project follows my process of creating a self driving robot. The robot is able to collect data from a temperature sensor using Arduino Mega 2650 and upload it to twitter using Raspberry Pi 4. Interface Arduino Mega 2650, Raspberry Pi 4, BTS7960 motor controllers, SR04 ultrasonic sensors, and DHT11 temperature & humidity sensor.
+
 
 ## Materials
 
