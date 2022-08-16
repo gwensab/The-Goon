@@ -1,7 +1,6 @@
 # @gwensab last edited 8/16/2022
 # The purpose of this code is to access a twitter developer account remotely, gather data from sqlite table, format that data, and send it to twitter
 
-
 import sqlite3
 import tweepy
 import datetime
