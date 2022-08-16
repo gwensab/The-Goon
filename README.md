@@ -95,10 +95,10 @@ I found the instructions at [pimylifeup.com](https://pimylifeup.com/raspberry-pi
 
 ### Step 7 : Python Files 
 
-* From Raspberry Pi desktop, open the "Applications Menu" -> "Programming" -> "Thonny Python IDE"
+* From Raspberry Pi desktop, open the ``Applications Menu`` -> ``Programming`` -> ``Thonny Python IDE``
 * Create a new python file and input the [weatherman](weatherman.py) code
-* Test that is works properly by running "python3 ./weatherman.py" in the terminal (this should add data to sqlite table which can be viewed [here](https://sqliteviewer.app/))
-* [post conditions](postConditions.py)
+* Test that is works properly by running ``python3 ./weatherman.py`` in the terminal (this should add data to sqlite table which can be viewed [here](https://sqliteviewer.app/))
+* Repeat the above instructions with the [post conditions](postConditions.py) code
 
 ### Step 8 : Cronjob
 
