@@ -64,7 +64,7 @@ insert image of wiring here
 ### Step 3 : Program Arduino Using Raspberry Pi
 
 *  Download Arduino IDE by opening [arduino.cc](https://www.arduino.cc/en/software/OldSoftwareReleases#previous) in the Raspberry Pi desktop
-*  I used the newest update "Arduino 1.8.18" then selected "Linux ARM 32" 
+*  I used the newest update ``Arduino 1.8.18`` then selected ``Linux ARM 32`` 
 *  Open a terminal and type ' tar -xvzf arduino-1.8.18-linuxarm.tar.xz ' to extract the file
 *  Then type ' cd arduino-1.8.18 ' to go to the directory
 *  In the directory. type ' ./arduino ' to run the Arduino IDE
