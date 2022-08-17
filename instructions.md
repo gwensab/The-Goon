@@ -47,19 +47,29 @@ I found the instructions at [create.arduino.cc](https://create.arduino.cc/projec
 
 I found the instructions at [pimylifeup.com](https://pimylifeup.com/raspberry-pi-sqlite/) to be helpful
 
-### Step 7 : Twitter Developer Account & Tweepy
+### Step 7 : Twitter Developer Account 
+![Screenshot (5)](https://user-images.githubusercontent.com/109180573/185196927-b422e7a3-3eb3-46f1-91f2-134f8ca44235.png)
+* To create a twitter developer account go to [developer.twitter.com](https://developer.twitter.com/en/application/use-case)
+* Answer the prompted questions and navigate to the developer site from your dashboard to create an app
+* When your app is created, twitter will generate consumer API keys and access tokens (make sure you copy these somewhere, they are only shown once)
+* Ensure that access level is set to read and write
+* Check that your developer account is linked to the twitter user that you want to post your tweets
 
-* To create a twitter developer account
+I found the instructions at [towardsdatascience.com](https://towardsdatascience.com/building-a-twitter-bot-with-python-89959ef2607f) to be helpful
 
-### Step 8 : Python Files 
+### Step 8 : Send Data To Database
 
 * From Raspberry Pi desktop, open the ``Applications Menu`` -> ``Programming`` -> ``Thonny Python IDE``
 * Create a new python file and input the [get temp](get_temp.py) code
+* This code will gather the temperature data from the arduino serial monitor, then store it in the table you created in the sqlite database
 * Test that this works properly by running ``python3 ./get_temp.py`` in the terminal (this should add data to sqlite table which can be viewed [here](https://sqliteviewer.app/))
-* Create another new python file and input the [post twitter](post_twitter.py) code
-* Test that this works properly by checking the twitter account you are using for new posts
 
-### Step 9 : Cronjob
+### Step 9 : Send To Twitter With Tweepy
+
+* Follow the first bullet point from step 9 to create another new python file and input the [post twitter](post_twitter.py) code
+* This code will pull data from the table in your sqlite database, format it into a readable tweet, and then upload that post to twitter
+
+### Step 10 : Cronjob
 
 * Create a cronjob to run the python codes every x minutes
 * Type 'crontab -e' in the terminal to create and edit a file
