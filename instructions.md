@@ -48,7 +48,7 @@ I found the instructions at [create.arduino.cc](https://create.arduino.cc/projec
 I found the instructions at [pimylifeup.com](https://pimylifeup.com/raspberry-pi-sqlite/) to be helpful
 
 ### Step 7 : Twitter Developer Account 
-![Screenshot (5)](https://user-images.githubusercontent.com/109180573/185196927-b422e7a3-3eb3-46f1-91f2-134f8ca44235.png)
+![Sscreenshot (5)](https://user-images.githubusercontent.com/109180573/185198741-8f8f7dce-1b53-4fcc-a700-16c30b289921.png)
 * To create a twitter developer account go to [developer.twitter.com](https://developer.twitter.com/en/application/use-case)
 * Answer the prompted questions and navigate to the developer site from your dashboard to create an app
 * When your app is created, twitter will generate consumer API keys and access tokens (make sure you copy these somewhere, they are only shown once)
