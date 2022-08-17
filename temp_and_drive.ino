@@ -4,13 +4,13 @@ This is the code for Arduino Mega 2560 board. Code includes interfacing with two
 Code has the capacity to gather information from sensors and drive according to that information.
 */
 
-#include <BTS7960.h>   // motor driver
-#include <NewPing.h>  // SR04 distance sensor
+#include <BTS7960.h>                                 // motor driver
+#include <NewPing.h>                                 // SR04 distance sensor
 #include <Adafruit_Sensor.h>
-#include <DHT.h>      // DHT11 temperature sensor  
+#include <DHT.h>                                     // DHT11 temperature sensor  
 
 // declare motor driver consants
-const uint8_t R_EN_Right = 8;       // pinout
+const uint8_t R_EN_Right = 8;       // pins for motor drivers
 const uint8_t L_EN_Right = 7;
 const uint8_t L_PWM_Right = 6;
 const uint8_t R_PWM_Right = 5;
@@ -22,10 +22,10 @@ BTS7960 motorController_Right(L_EN_Right, R_EN_Right, L_PWM_Right, R_PWM_Right);
 BTS7960 motorController_Left(L_EN_Left, R_EN_Left, L_PWM_Left, R_PWM_Left);       // left motor controller configuration
  
 // declare SR04 sensor constants
-#define trigger_pin_1 44      // set input pins
+#define trigger_pin_1 44      // set input pins for ultrasonic sensors
 #define trigger_pin_2 45      
 #define trigger_pin_3 46      
-#define echo_pin_1 44         // set output pins
+#define echo_pin_1 44         // set output pins for ultrasonic sensors
 #define echo_pin_2 45         
 #define echo_pin_3 46         
 #define max_distance 350      // max distance in centimeters, about 140  inches
