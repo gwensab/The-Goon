@@ -8,12 +8,7 @@
 * Connect the two motor drivers first, using Arduino digital pins 5-12
 * Then connect the three ultrasonic sensors, using Arduino digital pins 44-46
 * Finally connect the temperature sensor, using Arduino digital pin 4
-
-![yyIMG_7630](https://user-images.githubusercontent.com/109180573/185225685-6d0b93c2-92f6-4378-9790-a32fc2992731.JPG)![yyIMG_7632](https://user-images.githubusercontent.com/109180573/185225694-bcb62b8f-d54c-470b-a8f3-ecf5627ba82f.JPG)
-![yyIMG_7642](https://user-images.githubusercontent.com/109180573/185225703-748f3cd8-6096-43ea-a11c-0c0a73b1ebab.JPG)![yyIMG_7648](https://user-images.githubusercontent.com/109180573/185225765-318f7ea7-668c-4287-bb72-4398390ee4fe.JPG)
-![yyIMG_7649](https://user-images.githubusercontent.com/109180573/185225773-0afa4281-bd7a-4513-b541-b11f0c55e7fd.JPG)![yyIMG_7655](https://user-images.githubusercontent.com/109180573/185225783-763dacc8-8b01-4c4c-b417-e9530db3fec3.JPG)
-![yyIMG_7660](https://user-images.githubusercontent.com/109180573/185225795-bac04e71-73d5-4eb5-87b3-31564d9a7ceb.JPG)
-
+![yyIMG_7630](https://user-images.githubusercontent.com/109180573/185226473-4e98f903-1ccd-4ee4-9973-358f3d56acb8.JPG)![yyIMG_7632](https://user-images.githubusercontent.com/109180573/185226480-1671bf3b-1f88-40b0-9e34-c43f7cd450bf.JPG)![yyIMG_7642](https://user-images.githubusercontent.com/109180573/185226529-0a9f7ba4-5af3-4f45-b4c4-b2adbf5193df.JPG)![yyIMG_7648](https://user-images.githubusercontent.com/109180573/185226540-10f2317f-871d-4535-bef3-08c8e353438e.JPG)![yyIMG_7649](https://user-images.githubusercontent.com/109180573/185226551-40ccd65f-96f5-486f-a337-030fe36e88a9.JPG)![yyIMG_7655](https://user-images.githubusercontent.com/109180573/185226560-92567c0d-ec23-4d77-9ee7-33b1ab701a54.JPG)![yyIMG_7660](https://user-images.githubusercontent.com/109180573/185226569-ecbafe6f-1f21-4335-89cd-55e3d7b048b6.JPG)
 
 
 ### Step 2 : Set Up Raspberry Pi
