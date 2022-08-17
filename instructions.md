@@ -39,7 +39,7 @@ I found the instructions at [create.arduino.cc](https://create.arduino.cc/projec
 * Verify and Upload code to the board
 
 ### Step 6 : Install SQLite3
-
+![gggIMG_7667 (2)](https://user-images.githubusercontent.com/109180573/185209796-42e819a3-f9af-4558-aaee-c14c819b97d5.jpg)
 * To install SQLite3, type ``sudo apt install sqlite3`` into the terminal
 * Type ``sqlite3 test.db`` into the terminal to either create or open a database named ``test`` 
 * Once in this database, create a table using the following code, ``CREATE TABLE weather(row_num INTEGER PRIMARY KEY, temperature TEXT, humidity TEXT, time TEXT);``
@@ -57,7 +57,7 @@ I found the instructions at [pimylifeup.com](https://pimylifeup.com/raspberry-pi
 I found the instructions at [towardsdatascience.com](https://towardsdatascience.com/building-a-twitter-bot-with-python-89959ef2607f) to be helpful
 
 ### Step 8 : Send Data To Database
-
+![gggIMG_7668](https://user-images.githubusercontent.com/109180573/185209076-b4461f68-7a7d-474c-a99d-617f75a15228.JPG)
 * From Raspberry Pi desktop, open the ``Applications Menu`` -> ``Programming`` -> ``Thonny Python IDE``
 * Create a new python file and input the [get temp](get_temp.py) code
 * This code will gather the temperature data from the arduino serial monitor, then store it in the table you created in the sqlite database
@@ -70,7 +70,7 @@ I found the instructions at [towardsdatascience.com](https://towardsdatascience.
 * Test that this works properly by running ``python3 ./post_twitter.py`` in the terminal (if a new tweet is posted to the linked twitter account, it's working)
 
 ### Step 10 : Cronjob
-
+![gggIMG_7669](https://user-images.githubusercontent.com/109180573/185209191-337ef7f8-da2b-4977-bd37-12280bd39ad0.JPG)
 * Create a cronjob to run the python codes every x minutes
 * Type 'crontab -e' in the terminal to create and edit a file
 * At the bottom of the file that opens, type ``*/x * * * * python3 ./.py && python3 postConditions.py``
