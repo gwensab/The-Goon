@@ -3,7 +3,7 @@
 ### Step 1 : Assemble Components
 ![IMG_7684ggg](https://user-images.githubusercontent.com/109180573/185223412-cf8ddd1a-7b0b-4f34-8793-1fad3c96eb23.JPG)
 
-* Wire according to the above image and the wiring table from the [read me file](README.md)
+* Wire according to the above image and the wiring table from the [read me file](https://github.com/gwensab/The-Goon/blob/main/README.md#arduino-wiring)
 * Connect the negative and positive channels on the breadboard to the 5V and GND pins on the Arduino board
 * Connect the two motor drivers first, using Arduino digital pins 5-12
 * Then connect the three ultrasonic sensors, using Arduino digital pins 44-46
