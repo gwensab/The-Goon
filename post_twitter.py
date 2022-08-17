@@ -9,18 +9,18 @@ from datetime import time
 con = sqlite3.connect('name.db')                                                        # connect to sqlite3 database ("name" is a placeholder for your database name)
 cursor = con.cursor()
 
-consumer_key = 'xxx'                                                                    # "xxx" is a placeholder for your twitter developer keys and tokens
-consumer_secret = 'xxx'                                                                 # ^
-access_token = 'xxx'                                                                    # ^
-access_token_secret = 'xxx'                                                             # ^
+consumer_key = '***'                                                                    # remember the twitter API keys and access tokens?
+consumer_secret = '***'                                                                 # input those values here, in place of ***
+access_token = '***'                                                                    
+access_token_secret = '***'                                                             
 
-auth = tweepy.OAuthHandler(consumer_key, consumer_secret)                               # use twitter keys and tokens to authenticate twitter access
-auth.set_access_token(access_token, access_token_secret)
-api = tweepy.API(auth)
+auth = tweepy.OAuthHandler(consumer_key, consumer_secret)                               # use twitter API keys 
+auth.set_access_token(access_token, access_token_secret)                                # and access tokens
+api = tweepy.API(auth)                                                                  # to authenticate connection to your twitter account
 
 t = datetime.datetime.now()                                                             # get real time
 minutes = t.strftime("%M")                                                              # get minutes
-min = float(minutes)%1                                                                  # check if minutes are divisible by 1
+min = float(minutes)%1                                                                  # convert to float value and check if minutes are divisible by 1
 
 cursor.execute("SELECT temperature FROM table_name ORDER BY row_num DESC LIMIT 1")      # get newest temperature value from table
 temperatur = cursor.fetchone()                                                          # select row from table
