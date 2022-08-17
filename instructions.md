@@ -10,6 +10,7 @@
 * Finally connect the temperature sensor, using Arduino digital pin 4
 
 Final wiring & connections should look something like this:
+
 ![yyIMG_7630 (2)](https://user-images.githubusercontent.com/109180573/185226902-610aaf2e-62dd-48d2-a13f-4242fdbfbed7.JPG)![yyIMG_7632](https://user-images.githubusercontent.com/109180573/185226909-b304f14e-1c41-446b-b360-4ebca8283e68.JPG)![yyIMG_7642](https://user-images.githubusercontent.com/109180573/185226529-0a9f7ba4-5af3-4f45-b4c4-b2adbf5193df.JPG)![yyIMG_7648](https://user-images.githubusercontent.com/109180573/185226540-10f2317f-871d-4535-bef3-08c8e353438e.JPG)![yyIMG_7649](https://user-images.githubusercontent.com/109180573/185226551-40ccd65f-96f5-486f-a337-030fe36e88a9.JPG)![yyIMG_7655](https://user-images.githubusercontent.com/109180573/185226560-92567c0d-ec23-4d77-9ee7-33b1ab701a54.JPG)![yyIMG_7660](https://user-images.githubusercontent.com/109180573/185226569-ecbafe6f-1f21-4335-89cd-55e3d7b048b6.JPG)
 
 
