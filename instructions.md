@@ -16,6 +16,9 @@ I found the instructions at [projects.raspberrypi.org](https://projects.raspberr
 
 ### Step 3 : Program Arduino Using Raspberry Pi
 ![Sscreenshot (1)](https://user-images.githubusercontent.com/109180573/184982452-6683fa86-a8aa-4e98-9e69-f50120d01984.jpg)
+
+Arduino is a microcontroller board while Raspberry Pi is a microprocessor based mini computer. So we will use the Raspberry Pi to store the code for the Arduino and then the Arduino will run the motors, sensors, ect.
+
 *  Download Arduino IDE by opening [arduino.cc](https://www.arduino.cc/en/software/OldSoftwareReleases#previous) in the Raspberry Pi desktop
 *  I used the newest update ``Arduino 1.8.18`` then selected ``Linux ARM 32`` 
 *  In the File Manager, extract the file by right clicking on it
