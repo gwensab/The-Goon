@@ -70,10 +70,10 @@ I found the instructions at [towardsdatascience.com](https://towardsdatascience.
 * Test that this works properly by running ``python3 ./post_twitter.py`` in the terminal (if a new tweet is posted to the linked twitter account, it's working)
 
 ### Step 10 : Cronjob
-![gggIMG_7669](https://user-images.githubusercontent.com/109180573/185209191-337ef7f8-da2b-4977-bd37-12280bd39ad0.JPG)
+![gggIMG_7682](https://user-images.githubusercontent.com/109180573/185211644-c1af438f-6919-4b73-870f-677947c255d1.JPG)
 * Create a cronjob to run the python codes every x minutes
 * Type 'crontab -e' in the terminal to create and edit a file
-* At the bottom of the file that opens, type ``*/x * * * * python3 ./.py && python3 postConditions.py``
+* At the bottom of the file that opens, type ``*/x * * * * python3 ./get_temp.py && python3 post_twitter.py``
 (where x is the minute interval you want to run the code at)
 
 More information about cronjobs can be found at [raspiserver.com](https://raspiserver.com/crontab-on-raspberry-pi/)
