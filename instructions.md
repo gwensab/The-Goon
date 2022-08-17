@@ -1,6 +1,18 @@
 # Instructions
 
 ### Step 1 : Assemble Components
+![IMG_7684ggg](https://user-images.githubusercontent.com/109180573/185223412-cf8ddd1a-7b0b-4f34-8793-1fad3c96eb23.JPG)
+
+* Wire according to the above image and the wiring table from the [read me file](README.md)
+* Connect the negative and positive channels on the breadboard to the 5V and GND pins on the Arduino board
+* Connect the two motor drivers first, using Arduino digital pins 5-12
+* Then connect the three ultrasonic sensors, using Arduino digital pins 44-46
+* Finally connect the temperature sensor, using Arduino digital pin 4
+
+![yyIMG_7630](https://user-images.githubusercontent.com/109180573/185225685-6d0b93c2-92f6-4378-9790-a32fc2992731.JPG)![yyIMG_7632](https://user-images.githubusercontent.com/109180573/185225694-bcb62b8f-d54c-470b-a8f3-ecf5627ba82f.JPG)
+![yyIMG_7642](https://user-images.githubusercontent.com/109180573/185225703-748f3cd8-6096-43ea-a11c-0c0a73b1ebab.JPG)![yyIMG_7648](https://user-images.githubusercontent.com/109180573/185225765-318f7ea7-668c-4287-bb72-4398390ee4fe.JPG)
+![yyIMG_7649](https://user-images.githubusercontent.com/109180573/185225773-0afa4281-bd7a-4513-b541-b11f0c55e7fd.JPG)![yyIMG_7655](https://user-images.githubusercontent.com/109180573/185225783-763dacc8-8b01-4c4c-b417-e9530db3fec3.JPG)
+![yyIMG_7660](https://user-images.githubusercontent.com/109180573/185225795-bac04e71-73d5-4eb5-87b3-31564d9a7ceb.JPG)
 
 
 
