@@ -1,5 +1,4 @@
-# Step By Step Instructions
-
+# Instructions
 
 ### Step 1 : Assemble Components
 
@@ -68,6 +67,7 @@ I found the instructions at [towardsdatascience.com](https://towardsdatascience.
 
 * Follow the first bullet point from step 9 to create another new python file and input the [post twitter](post_twitter.py) code
 * This code will pull data from the table in your sqlite database, format it into a readable tweet, and then upload that post to twitter
+* Test that this works properly by running ``python3 ./post_twitter.py`` in the terminal (if a new tweet is posted to the linked twitter account, it's working)
 
 ### Step 10 : Cronjob
 
@@ -75,3 +75,5 @@ I found the instructions at [towardsdatascience.com](https://towardsdatascience.
 * Type 'crontab -e' in the terminal to create and edit a file
 * At the bottom of the file that opens, type ``*/x * * * * python3 ./.py && python3 postConditions.py``
 (where x is the minute interval you want to run the code at)
+
+More information about cronjobs can be found at [raspiserver.com](https://raspiserver.com/crontab-on-raspberry-pi/)
